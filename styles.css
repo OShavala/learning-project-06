@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to right, #d4809c, #e0ee62); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.facebook-btn {
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 24px; 
+}
+
+.twitter-btn {
+    background-color: #1da1f2;
+    color: #fff;
+    font-size: 24px; 
+}
+
+.linkedin-btn {
+    background-color: #0077b5;
+    color: #fff;
+    font-size: 24px; 
+}
+
+.instagram-btn {
+    background-color: #e4405f;
+    color: #fff;
+    font-size: 24px; 
+}
+
+
+
+
